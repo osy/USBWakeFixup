@@ -23,4 +23,4 @@ Check [here][1] for a more detailed technical writeup on how this works.
    You may need to modify it to point to your XHC device.
 2. Install the kext.
 
-[1]: [https://osy.gitbook.io/hac-mini-guide/details/usb-fix]
+[1]: https://osy.gitbook.io/hac-mini-guide/details/usb-fix
