@@ -15,7 +15,9 @@ GPE as your USB controller, then WoL will now wake the display.
 
 ## Details
 
-Check [here][1] for a more detailed technical writeup on how this works.
+Check [here][1] for a more detailed technical writeup on how this works. You 
+should only use this if injecting `acpi-wake-type` on XHCI does not work due 
+to the Intel PCH bug. Please see [this issue][2] for more information.
 
 ## Installation
 
@@ -24,3 +26,4 @@ Check [here][1] for a more detailed technical writeup on how this works.
 2. Install the kext.
 
 [1]: https://osy.gitbook.io/hac-mini-guide/details/usb-fix
+[2]: https://github.com/osy86/USBWakeFixup/issues/2
